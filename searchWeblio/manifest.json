@@ -1,0 +1,10 @@
+{
+  "name": "Weblioで検索(類語)",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "ドラッグで選択したテキストを Weblio にて類語検索",
+  "permissions": ["tabs", "scripting", "contextMenus", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
